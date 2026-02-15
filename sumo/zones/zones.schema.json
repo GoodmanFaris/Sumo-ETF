@@ -1,0 +1,17 @@
+{
+  "camera_id": "cam_01",
+  "image_size": {"w": 1920, "h": 1080},
+  "roi_polygon": [[0,0],[1920,0],[1920,1080],[0,1080]],
+  "count_lines": [
+    {"id":"A_in", "p1":[100,900], "p2":[700,900], "direction_hint":"into_junction"}
+  ],
+  "entry_zones": [
+    {"id":"A_entry", "polygon":[[100,800],[700,800],[700,900],[100,900]]}
+  ],
+  "exit_zones": [
+    {"id":"N_exit", "polygon":[[900,100],[1100,100],[1100,250],[900,250]]}
+  ],
+  "queue_zones": [
+    {"id":"A_queue", "polygon":[[100,900],[700,900],[700,1050],[100,1050]]}
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes>
+  <flow id="flow_W_60_T" begin="60" end="120" from="edge_W_in" to="edge_N_out" vehsPerHour="60.00" departLane="best" departSpeed="max"/>
+  <flow id="flow_E_120_R" begin="120" end="180" from="edge_E_in" to="edge_E_out" vehsPerHour="60.00" departLane="best" departSpeed="max"/>
+  <flow id="flow_N_180_R" begin="180" end="240" from="edge_N_in" to="edge_E_out" vehsPerHour="120.00" departLane="best" departSpeed="max"/>
+  <flow id="flow_W_240_T" begin="240" end="300" from="edge_W_in" to="edge_N_out" vehsPerHour="60.00" departLane="best" departSpeed="max"/>
+</routes>

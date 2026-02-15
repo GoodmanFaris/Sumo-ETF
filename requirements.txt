@@ -1,0 +1,13 @@
+ultralytics
+torch
+torchvision
+opencv-python
+numpy
+pandas
+shapely
+orjson
+lxml
+tqdm
+sumolib
+traci
+matplotlib

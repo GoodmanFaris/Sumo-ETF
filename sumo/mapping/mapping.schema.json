@@ -1,0 +1,15 @@
+{
+  "approaches": [
+    {"approach_id":"A", "from_edge":"edge_A_in"}
+  ],
+  "turns": [
+    {"approach_id":"A", "movement":"L", "to_edge":"edge_W_out"},
+    {"approach_id":"A", "movement":"T", "to_edge":"edge_N_out"},
+    {"approach_id":"A", "movement":"R", "to_edge":"edge_E_out"}
+  ],
+  "vehicle_types": {
+    "car": "passenger",
+    "bus": "bus",
+    "truck": "truck"
+  }
+}

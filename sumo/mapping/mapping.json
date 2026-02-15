@@ -1,0 +1,39 @@
+{
+  "count_line_to_approach": {
+    "E_in": "E",
+    "N_in": "N",
+    "W_in": "W"
+  },
+
+  "approaches": [
+    { "approach_id": "E", "from_edge": "edge_E_in" },
+    { "approach_id": "N", "from_edge": "edge_N_in" },
+    { "approach_id": "W", "from_edge": "edge_W_in" }
+  ],
+
+  "exit_zone_to_movement": {
+    "W_exit": "L",
+    "N_exit": "T",
+    "E_exit": "R"
+  },
+
+  "turns": [
+    { "approach_id": "E", "movement": "L", "to_edge": "edge_W_out" },
+    { "approach_id": "E", "movement": "T", "to_edge": "edge_N_out" },
+    { "approach_id": "E", "movement": "R", "to_edge": "edge_E_out" },
+
+    { "approach_id": "N", "movement": "L", "to_edge": "edge_W_out" },
+    { "approach_id": "N", "movement": "T", "to_edge": "edge_N_out" },
+    { "approach_id": "N", "movement": "R", "to_edge": "edge_E_out" },
+
+    { "approach_id": "W", "movement": "L", "to_edge": "edge_E_out" },
+    { "approach_id": "W", "movement": "T", "to_edge": "edge_N_out" },
+    { "approach_id": "W", "movement": "R", "to_edge": "edge_W_out" }
+  ],
+
+  "vehicle_types": {
+    "car": "passenger",
+    "bus": "bus",
+    "truck": "truck"
+  }
+}
