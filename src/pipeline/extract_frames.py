@@ -28,9 +28,11 @@ def extract_frames(video_path: str, out_dir: str, every_seconds: float = 3.0):
     print(f"Saved {saved} frames to {out}")
 
 if __name__ == "__main__":
-    extract_frames(
-        video_path=r"C:\Users\Korisnik\Desktop\EtfIsDigital\raw\videos\cam01.mp4",
-        out_dir="raw/images",
-        every_seconds=3.0
-    )
+    pass
+
+    #extract_frames(
+    #    video_path=r"C:\Users\Korisnik\Desktop\EtfIsDigital\raw\videos\cam01.mp4",
+    #    out_dir="raw/images",
+    #    every_seconds=3.0
+    #)
 

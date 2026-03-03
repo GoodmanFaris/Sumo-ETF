@@ -11,3 +11,5 @@ tqdm
 sumolib
 traci
 matplotlib
+ultralytics
+pyyaml

@@ -28,9 +28,10 @@ def run_inference(weights_path: str, images_dir: str, out_dir: str, conf: float 
     print(f"Saved detections to {out}")
 
 if __name__ == "__main__":
-    run_inference(
-        weights_path="yolov8n.pt",
-        images_dir="raw/images",
-        out_dir="inference/detections",
-        conf=0.25
-    )
+    pass
+    #run_inference(
+    #    weights_path="yolov8n.pt",
+    #    images_dir="raw/images",
+    #    out_dir="inference/detections",
+    #    conf=0.25
+    #)
