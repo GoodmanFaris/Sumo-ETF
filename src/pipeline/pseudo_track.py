@@ -72,5 +72,5 @@ def pseudo_track(detections_dir: str, out_path: str, max_move_px: float = 80.0):
     print(f"Saved pseudo-tracks to {out_path}")
 
 if __name__ == "__main__":
-    pass
-    #pseudo_track("inference/detections", "inference/pseudo_tracks/pseudo_tracks.json", max_move_px=80)
+    #pass
+    pseudo_track("inference/detections", "inference/pseudo_tracks/pseudo_tracks.json", max_move_px=80)

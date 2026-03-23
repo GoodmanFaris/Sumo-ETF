@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo $SUMO_HOME)",
+      "Bash(where netconvert:*)",
+      "Read(//c/Users/Korisnik/Desktop/EtfIsDigital/$SUMO_HOME/bin/**)",
+      "Bash(pip show:*)",
+      "Read(//c/Program Files/Eclipse/SUMO/**)",
+      "Read(//c/Program Files \\(x86\\)/Eclipse/SUMO/**)",
+      "Bash(python:*)"
+    ]
+  }
+}

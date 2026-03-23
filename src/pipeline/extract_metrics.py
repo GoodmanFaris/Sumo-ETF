@@ -315,12 +315,12 @@ def extract_metrics(
 
 
 if __name__ == "__main__":
-    pass
-    #extract_metrics(
-    #    pseudo_tracks_path="inference/pseudo_tracks/pseudo_tracks.json",
-    #    zones_path="sumo/zones/zones.json",
-    #    out_per_frame_csv="metrics/per_frame/observations_per_frame.csv",
-    #    out_agg_csv="metrics/aggregated/metrics_aggregated.csv",
-    #    snapshot_dt_sec=3.0,
-    #    agg_bin_sec=60
-    #)
+    #pass
+    extract_metrics(
+        pseudo_tracks_path="inference/pseudo_tracks/pseudo_tracks.json",
+        zones_path="sumo/zones/zones.json",
+        out_per_frame_csv="metrics/per_frame/observations_per_frame.csv",
+        out_agg_csv="metrics/aggregated/metrics_aggregated.csv",
+        snapshot_dt_sec=3.0,
+        agg_bin_sec=60
+    )
